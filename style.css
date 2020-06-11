@@ -13,6 +13,8 @@ h4{
 .header{
     background-color: darkcyan;
     margin-top: 1em;
+    padding: 30px;
+
 
 }
 .aboutme{
@@ -21,11 +23,37 @@ h4{
     justify-content: space-evenly;
    
 }
+a:link{
+    color:white;
+}
+a:visited{
+    color:black;
+}
 .solar{
     background-color:rgb(85, 85, 236);
     
     display:flex;
     justify-content: space-evenly;
+    position: relative;
+}
+.solar img{
+    margin:30px;
+    opacity:1;
+   
+
+}
+.solar:hover img{
+    opacity:0.4;
+}
+.solar p{
+    position:absolute;
+    top:50%;
+    left:20%;
+    opacity:0;
+
+}
+.solar:hover p{
+    opacity:1;
 }
 
 .sts{
@@ -33,17 +61,71 @@ h4{
     background-color: rgb(116, 150, 238);
     display:flex;
     justify-content: space-evenly;
+    position:relative;
+}
+.sts img{
+    margin:30px;
+}
+.sts:hover img{
+    opacity:0.4;
+}
+.sts p{
+    position:absolute;
+    top:48%;
+    right:29%;
+    opacity:0;
+}
+.sts:hover p{
+    opacity:1;
+
 }
 .ab{
     background-color: rgb(121, 33, 33);
     display: flex;
     justify-content: space-evenly;
+    position: relative;
 }
+.ab img{
+    margin:30px;
+}
+.ab:hover img{
+    opacity:0.4;
+}
+.ab p{
+    opacity:0;
+    position:absolute;
+}
+.ab:hover p{
+    opacity:1;
+    top:50%;
+    left:30%;
+}
+
+
+
 .crg{
     background-color: rgb(70,70,100);
     display: flex;
     justify-content: space-evenly;
+    position:relative
 }
+.crg img{
+    margin:30px
+}
+.crg:hover img{
+    opacity:0.4;
+}
+.crg p{
+    opacity:0;
+    position:absolute
+}
+.crg:hover p{
+    opacity:1;
+    top:50%;
+    right:32%;
+
+}
+
 .end{
    
     background-color: #000000;
